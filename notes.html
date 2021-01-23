@@ -1,0 +1,74 @@
+<!-- Java script  -->
+<h1> Data Types</h1>
+<ul>
+    <lh> Number</lh>
+    <li>  *, % , ? are having higher priority then + </li>
+</ul>
+
+2. boolean <br/>
+<ul>
+
+    <lh> String Type   </lh>
+    <li>length property</li>
+    <li> slice</li>
+</ul>
+
+
+
+<h1>Event and Event listeners</h1>
+<h1>Sound play (Audio class)</h1>
+<h1>Button image</h1>
+<h1>If, while, for, switch,Map, Array, Data Types, </h1>
+<h1>function , annonimus function, high order function</h1>
+<pre>
+ function add(n1, n2) {
+   return n1 + n2;
+ }
+
+ function (n1, n2) {
+    return n1 + n2;
+ }
+
+ function calculator(num1, num2, operator) {
+   return operator(num1, num2);
+ }
+ calculator(2, 4, add);
+
+</pre>
+
+<h1>Objects (like annonimus class constructor) and Construction function (its like class constructor and has to be called using new key word) and Callback function</h1>
+
+
+<pre>
+
+  var object = {
+    name: "name",
+    exp : 12,
+    interest : ["bathroom", "bedroom"],
+    clean:  function() {
+      alert("Cleaning in proress!");
+    }
+  }
+
+  function HouseKeeper(exp, interest, name) {
+    this.name= name;
+    this.exp = exp;
+    this.interest = interest;
+    this.clean = function() {
+      alert("Cleaning in progress!");
+    }
+  }
+
+
+  window.addEventListener("keydown", callback);
+
+  function callback(event) {
+    var drum = event.key;
+
+    if (charToSoundMap.has(drum)) {
+      makeSound(drum);
+    }
+  }
+</pre>
+<h1>how to add animation using css and setTimeout of js</h1>
+<h1>Please Refesh(read again) DOM model</h1>
